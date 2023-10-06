@@ -30,6 +30,12 @@ Type ORM and Sqlite:
 npm install @nestjs/typeorm typeorm sqlite3
 ```
 
+Cookie Sessions:
+
+```bash
+npm install cookie-session @types/cookie-session
+```
+
 ## Running Skeleton App
 
 ```bash
