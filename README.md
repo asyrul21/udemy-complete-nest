@@ -2,6 +2,8 @@
 
 This respository stores all the code exercises for Udemy Course [NestJS the Complete Developer's Guide](https://www.udemy.com/course/nestjs-the-complete-developers-guide/)
 
+Covers all NestJS Lectures, except that I did not deploy to Heroku.
+
 Some notes
 
 ## Global Install of Nest CLI
@@ -36,6 +38,18 @@ Cookie Sessions:
 npm install cookie-session @types/cookie-session
 ```
 
+NestJS Config
+
+```bash
+npm install @nestjs/config
+```
+
+Cross Env
+
+```bash
+npm install cross-env
+```
+
 ## Running Skeleton App
 
 ```bash
@@ -44,6 +58,12 @@ cd ./01-scratch
 
 # run
 npx ts-node-dev src/main.ts
+```
+
+PostGres Driver for Production
+
+```
+npm install pg
 ```
 
 ## Running Nest Projects
@@ -77,3 +97,7 @@ nest generate service [name]
 nest generate controller messages/messages --flat
 
 ```
+
+## Request Flow
+
+Request -> Middlewares -> Guards -> Interceptor -> Request Handler (Controller) -> Interceptor -> Response

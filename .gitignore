@@ -6,6 +6,10 @@
 /.pnp
 .pnp.js
 
+# in real app, exclude environment files:
+# /**/.env
+# /**/.env.*
+
 # testing
 /coverage
 

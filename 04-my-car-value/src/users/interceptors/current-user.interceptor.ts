@@ -1,3 +1,7 @@
+/**
+ * Current User has been moved as a middleware.
+ * Keeping this file for reference only.
+ */
 import {
   NestInterceptor,
   ExecutionContext,
