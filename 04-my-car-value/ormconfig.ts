@@ -36,8 +36,6 @@ switch (process.env.NODE_ENV) {
     throw new Error('unknown environment');
 }
 
-// module.exports = dbConfig;
-
 export const dataSourceOptions: DataSourceOptions = dbConfig;
 
 const dataSource = new DataSource(dataSourceOptions);

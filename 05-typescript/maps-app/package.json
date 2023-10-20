@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "@types/faker": "^6.6.9",
+    "@types/google.maps": "^3.54.3"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3"
+  }
+}

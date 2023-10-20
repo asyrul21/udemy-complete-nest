@@ -101,3 +101,53 @@ nest generate controller messages/messages --flat
 ## Request Flow
 
 Request -> Middlewares -> Guards -> Interceptor -> Request Handler (Controller) -> Interceptor -> Response
+
+# Typescript
+
+## Setup and Installation
+
+Global install
+
+```bash
+npm install -g typescript ts-node
+```
+
+Check
+
+```bash
+tsc --help
+```
+
+## Commands
+
+Compile TS file to JS
+
+```bash
+tsc index.ts # compiled to index.js
+```
+
+Running the File
+
+```bash
+node index.js
+```
+
+Combining tsc and node in one command:
+
+```bash
+ts-node index.ts # but will not create any js files
+```
+
+Parcel
+
+```bash
+npx parcel index.html
+```
+
+## Project Dependency
+
+Faker
+
+```bash
+npm install @faker-js/faker
+```

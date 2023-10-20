@@ -5,6 +5,7 @@
 /**/node_modules
 /.pnp
 .pnp.js
+/**/.parcel-cache/
 
 # in real app, exclude environment files:
 # /**/.env
